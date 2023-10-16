@@ -6,14 +6,14 @@
 #define blue_led 15
 #define red_led 2
 
-const char *ssid = "Estufa";
-const char *password = "Andrios2022";
+const char *ssid = "Change Me";
+const char *password = "Change Me";
 
 HTTPClient http;
 String payload = "";
 
-String serverPath_shutdonw = "http://10.0.0.116/printer/emergency_stop";
-String serverPath_restart = "http://10.0.0.116/printer/gcode/script?script=FIRMWARE_RESTART";
+String serverPath_shutdonw = "http://(Change Me  IP ADDRESS )/printer/emergency_stop";
+String serverPath_restart = "http://(Change Me  IP ADDRESS )/printer/gcode/script?script=FIRMWARE_RESTART";
 
 void setup()
 {
